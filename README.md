@@ -5,6 +5,8 @@
 Export Plex Posters for Movie or TV libraries to the directory the media is stored in. 
 Requires a csv export from [WebTools-NG](https://github.com/WebTools-NG/WebTools-NG)
 
+Disclaimer: Code will be a mess, won't be super optimised, but should work.
+
 ---
 ### You will need:
 #### For MOVIES:
