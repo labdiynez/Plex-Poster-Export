@@ -138,7 +138,7 @@ namespace PlexPosterExport
             //if tv is not empty, process csv as tv show
             if (tvItems.Count != 0)
             {
-                for (int i = 5200; i < tvItems.Count; i++)
+                for (int i = 1; i < tvItems.Count; i++)
                 {
                     Console.WriteLine("     Current Episode: [" + i + "] " + tvItems[i].Series + " | S" + tvItems[i].Season + "E" + tvItems[i].Episode + " | " + tvItems[i].Title);
                     BuildPathVariables(tvItems[i].Path);
